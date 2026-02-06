@@ -3,6 +3,14 @@
  #title
  #author
  #display_book_details() method
+# Create a child class named IssuedBook that .*inherits from Book and adds:
+#issued_to
+#issued_date
+#display_issued_book_details() method
+#display_book_details() → shows only title and author
+#display_issued_book_details() → shows title, author, issued_to, issued_date
+ #(it calls display_book_details() from the parent class using inheritance)
+#Create one object of IssuedBook and display all details.
 
 class Book:
     def __init__(self, title, author):
