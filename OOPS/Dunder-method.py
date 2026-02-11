@@ -30,4 +30,5 @@ class emp():
 e1=emp("abhi",50000)
 e2=emp("balu",10000)
 
+
 print(e1+e2)
